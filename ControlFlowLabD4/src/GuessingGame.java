@@ -6,7 +6,7 @@ public class GuessingGame {
         int guess = 2;
 
         if(guess == secretNumber) {
-            System.out.println("You guess was correct!");
+            System.out.println("Your guess was correct!");
         } else if(guess > secretNumber) {
             System.out.println("Your guess was too high!");
         } else {
